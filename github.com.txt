@@ -1,0 +1,21 @@
+github.com
+회원가입
+레파지토리는 홈페이지 주소로 쓰일 예정이므로, 포트폴리오 관련명칭 사용
+https://maenginsuk.github.io/MMisc/
+MMisc 이 부분에 쓰일 예정
+
+
+메인이미지 하나/ slide.jpg로 
+포트폴리오 작업들 모아 놓기 /recentworks001.jpg 로
+
+github폴더만들어서[내컴에]
+다운받은 소스폴더에 있는것 압축풀기.
+ 
+주어진 index.html 문서의 48번째 줄의 li 부분 한 파트 복사하기
+
+맨위의 이미지 하나를 slide.jpg로 이름바꾸어 넣고,
+icons_sprite.png 이미지는 건드리면 안됨
+필요하면 logo.png 본인의 로고도 하나 만들면 좋고
+작업한 이미지는 
+recentworks01.jpg 처럼 01~99 까지 만들거면..
+더 많게 할 예정이면 recentworks001.jpg

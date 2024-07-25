@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디자이너 김지혜입니다. </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="js/main.js"></script> -->
+
+</head>
+<body>
+    <header>
+        <a href="#main_content" class="quick_link" title="본문 바로가기"><i class="fa-solid fa-anchor"></i></a>
+        <!-- 내용은 하단에 있지만 탭키 눌렀을때 바로가로 가니까 위순서에 -->
+        
+        <div class="slideWrapper">
+            <ul class="slide_container">
+                <li class="slide">
+                    <img src="images/slide.jpg" alt="">
+                    <div class="content">
+                        <h3>Our Clients Are Our First Priority</h3>
+                        <h2>WELCOME <br> MY PORTFOLIO</h2></h2>
+                    </div>
+                </li>                
+            </ul>            
+        </div>
+    </header>
+    <main id="main_content">       
+        
+        <section class="recent_works">
+            <h2 class="content_tt">recent works</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odio suscipit aperiam esse mollitia.</p>
+            <div class="title_deco"><svg><circle cx="4" cy="4" r="4"></circle></svg></div>
+            <div class="buttons aic">
+                <button data-filter="all" class="active">All</button><span>/</span>
+                <button data-filter="youtube">유튜브썸네일</button><span>/</span>
+                <button data-filter="cardnews">카드뉴스</button><span>/</span>
+                <button data-filter="poster">포스터</button><span>/</span>
+                <button data-filter="banner">배너</button><span>/</span>
+                <button data-filter="design">표지디자인</button><span>/</span>
+                <button data-filter="sns">SNS스토리</button><span>/</span>
+                <button data-filter="figma">웹디자인(figma)</button><span>/</span>
+                <!-- <button data-filter="video">video</button> -->
+            </div>
+            
+            <ul class="gallery">
+                <!-- 이부분을 추가하기만 하면 됨 -->
+                <!-- 
+                    <li class="위 버튼의 data-filter 의 값중에 선택">
+                    <figure>
+                        <img src="images/recentworks[작업한 이미지의 이름을 recentworks 09 등 최근작업한 파일이 맨위로 오게 이름짓기].jpg" data-lightbox="images/recentworks01.jpg" alt="cardnews">
+                        <figcaption>
+                            <h3>cardnews</h3>
+                            <p><a href="#">web</a><span>/</span> <a href="">blue</a></p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+                 -->
+                <li class="cardnews">
+                    <figure>
+                        <img src="images/cardnews_01.jpg" data-lightbox="images/cardnews_01.jpg" alt="cardnews">
+                        <figcaption>
+                            <h3>cardnews</h3>
+                            <p><a href="#">web</a><span>/</span> <a href="">blue</a></p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+                <li class="powerpoint">
+                    <figure>
+                        <img src="images/design.02.jpg" data-lightbox="images/design.02.jpg" alt="p">
+                        <figcaption class="open-modal" >
+                            <h3>design</h3>
+                            <p><a href="#">art</a><span>/</span> <a href="">t-shirt design</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="poster">
+                    <figure>
+                        <img src="images/poster.03.jpg" data-lightbox="images/poster.03.jpg" alt="jinathan doe">
+                        <figcaption>
+                            <h3><aposter</h3>
+                            <p><a href="#">print</a><span>/</span> <a href="">reflet</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="banner">
+                    <figure>
+                        <img src="images/poster_04.jpg" data-lightbox="images/poster_04.jpg" alt="jinathan doe">
+                        <figcaption>
+                            <h3>banner</h3>
+                            <p><a href="#">animation</a><span>/</span> <a href="">responsive</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="poster">
+                    <figure>
+                        <img src="images/poster_05.jpg" data-lightbox="images/poster_05.jpg" alt="pamphlet">
+                        <figcaption>
+                            <h3>poster</h3>
+                            <p><a href="#">art</a><span>/</span> <a href="">logo aart</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="sns">
+                    <figure>
+                        <img src="images/poster_06.jpg" data-lightbox="images/poster_06.jpg" alt="pamphlet">
+                        <figcaption>
+                            <h3>sns</h3>
+                            <p><a href="#">photography</a><span>/</span> <a href="">blockies</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="youtube">
+                    <figure>
+                        <img src="images/web_07.jpg" data-lightbox="images/web_07.jpg" alt="pamphlet">
+                        <figcaption>
+                            <h3>youtube</h3>
+                            <p><a href="#">video</a><span>/</span> <a href="">responsive</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="cardnews">
+                    <figure>
+                        <img src="images/reflet_08.jpg" data-lightbox="images/reflet_08.jpg" alt="pamphlet">
+                        <figcaption>
+                            <h3>cardnews</h3>
+                            <p><a href="#">video</a><span>/</span> <a href="">responsive</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="design">
+                    <figure>
+                        <img src="images/design_09.jpg" data-lightbox="images/design_09.jpg" alt="pamphlet">
+                        <figcaption>
+                            <h3>design</h3>
+                            <p><a href="#">video</a><span>/</span> <a href="">responsive</a></p>
+                        </figcaption>
+                    </figure>
+                </li>
+                
+            </ul>
+        </section>
+        
+    </main>
+
+    <!-- popup -->
+    <div id="lightbox-overlay">
+        <img src="" alt="Lightbox image" title="Click anywhere to close" id="lightbox-image" />
+    </div> <!-- end lightbox-overlay -->
+
+
+    <script src="js/main.js"></script>    
+
+</body>
+</html>
